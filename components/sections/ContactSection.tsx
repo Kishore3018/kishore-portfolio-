@@ -6,7 +6,6 @@ import { useState } from "react";
 import { SectionContainer } from "@/components/layout/SectionContainer";
 import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
-import { Badge } from "@/components/ui/Badge";
 import { personalInfo, socialLinks } from "@/data/personal";
 import { containerVariants, itemVariants } from "@/lib/animations";
 
@@ -210,7 +209,7 @@ export const ContactSection = () => {
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-4 py-2 rounded-lg bg-dark-tertiary/50 border border-dark-tertiary text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors resize-none"
+                    className="w-full px-4 py-2 rounded-lg bg-dark-tertiary/50 border border-dark-tertiary text-white placeholder-gray-500 focus:outline-none focus:border-primary transition-colors"
                     placeholder="Tell me about your project..."
                   />
                 </div>
